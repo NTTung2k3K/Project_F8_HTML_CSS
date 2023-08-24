@@ -1,0 +1,25 @@
+/* Mobile and Tablet <1024px */
+@media (max-width: 1023px) {
+    .hide-on-mobile-table{
+        display: none;
+    }
+    .header__cart-info{
+        position: absolute;
+        left: 1; 
+        right: 1;
+    }
+}
+
+/* Tablet <1024px >=740px */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .hide-on-table{
+        display: none;
+    }
+}
+
+/* Mobile <740px */
+@media (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+}
